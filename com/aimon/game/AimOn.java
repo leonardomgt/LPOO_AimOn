@@ -9,7 +9,6 @@ public class AimOn extends Game {
 	private SpriteBatch batch;
     private AssetManager assetManager;
 	public BitmapFont font;
-	public String record;
 
 	@Override
 	public void create () {
