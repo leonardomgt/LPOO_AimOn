@@ -33,9 +33,6 @@ public class MainMenuScreen extends ScreenAdapter {
 
         buttonsRate = (float)buttonPressed.getWidth()/buttonPressed.getHeight();
 
-        camera = new OrthographicCamera();
-        camera.setToOrtho(false, 960, 540);
-
         screenCenterHeight = (int) camera.viewportHeight/2;
         screenCenterWidth = (int) camera.viewportWidth/2;
 
