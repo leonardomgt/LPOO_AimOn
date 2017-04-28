@@ -64,7 +64,6 @@ public class MainMenuScreen extends ScreenAdapter {
                         camera.viewportHeight /4);
         game.font.draw(game.getBatch(), "Welcome to AimOn!!! ", 100, 150);
         game.font.draw(game.getBatch(), "Tap anywhere to begin!", 100, 100);
-        game.font.draw(game.getBatch(), "Record: " + game.record, 100, 200);
         game.getBatch().end();
 
         if (Gdx.input.justTouched()) {
